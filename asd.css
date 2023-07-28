@@ -136,3 +136,19 @@ button:focus {
   background-color: #d32f2f; /* Color rojo oscuro */
   border-radius: 3em !important;
 }
+
+
+/* Estilo normal del cursor */
+body {
+  cursor: url(cursor0.png), auto;
+}
+
+/* Primer estado del cursor */
+button, a, label {
+  cursor: url(cursorIndicador1.png), auto;
+}
+
+/* Segundo estado del cursor */
+button, a, label {
+  cursor: url(cursorIndicador2.png), auto;
+}
