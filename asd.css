@@ -139,7 +139,7 @@ button:focus {
 
 
 /* Estilo normal del cursor */
-body {
+html,body {
   cursor: url(cursor0.png), auto;
 }
 
@@ -152,3 +152,5 @@ button, a, label {
 button, a, label {
   cursor: url(cursorIndicador2.png), auto;
 }
+
+

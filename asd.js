@@ -1,3 +1,4 @@
+/*click normal en body */
 document.addEventListener("DOMContentLoaded", function () {
     let cursorState = 1;
     let cursorChanged = false; // Variable para controlar si el cursor cambió al hacer clic
