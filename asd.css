@@ -47,6 +47,9 @@ button {
   border-radius: 5px;
   margin-right: 10px;
   padding: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
 }
 
 nav {
@@ -76,7 +79,17 @@ nav {
   box-sizing: border-box;
 }
 
-.download button {
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download a {
+  text-decoration: inherit;
+}
+
+.download a button {
   display: flex;
   padding: 18px;
   width: auto;
@@ -86,10 +99,9 @@ nav {
   margin-right: 30px;
 }
 
-.download {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.download a button:hover {
+  background-color: #d32f2f;
+  scale: 1.1;
 }
 
 .guide {
@@ -112,4 +124,11 @@ nav {
 }
 .body { 
   grid-area: body; 
+}
+
+
+button:active,
+button:hover,
+button:focus {
+  background-color: #d32f2f; /* Color rojo oscuro */
 }
