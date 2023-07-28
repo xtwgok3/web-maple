@@ -134,5 +134,5 @@ button:active,
 button:hover,
 button:focus {
   background-color: #d32f2f; /* Color rojo oscuro */
-  border-radius: 3em;
+  border-radius: 3em !important;
 }
