@@ -114,6 +114,7 @@ nav {
   align-items: center;
   flex-direction: column;
   margin-top: 10px;
+  background-color: #242424;
 }
 
 #home{
