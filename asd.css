@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #23272f;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -85,6 +85,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #23272f;
 }
 
 .download a {
@@ -154,4 +155,127 @@ button, a, label {
   cursor: url(cursorIndicador2.png), auto;
 }
 
+/*resposive section*/
+@media only screen and (max-width:480px) {
+  .nav-bar
+  {
+    margin-left: 9px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 290%;
+  }
+  .download{
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    left: 15px;
+  }
+  .download a button{
+   margin-bottom: 35px;
+  }
+}
 
+@media only screen and (min-width:415px) {
+  .nav-bar
+  {
+    margin-left: 0px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 290%;
+  }
+}
+
+@media only screen and (width: 540px) and (height: 720px) {
+  .nav-bar {
+    margin-left: 9px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 290%;
+  }
+  .download{
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    left: 15px;
+  }
+  .download a button{
+    margin-bottom: 35px;
+   }
+}
+
+@media only screen and (width: 540px) and (height: 720px) {
+  .nav-bar {
+    margin-left: 9px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 290%;
+  }
+  .download{
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    left: 15px;
+  }
+  .download a button{
+    margin-bottom: 35px;
+   }
+}
+
+/*iphne SE*/
+@media only screen and (width: 375px) and (height: 667px) {
+  h1 {
+    font-size: 200%;
+  }
+  .download{
+    position: relative;
+    margin-left: 30px;
+  }
+  .download a button{
+    margin-bottom: 25px;
+    margin-right: 60px;
+   }
+
+   .download a{
+    height: 95px;
+   }
+}
+/*sm-s8*/
+@media only screen and (width:360px) and (height:740px){
+  h1 {
+    text-align: center;
+    font-size: 290%;
+  }
+  .download{
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    left: 13px;
+  }
+  .download a button{
+   margin-bottom: 25px;
+  }
+}
+/*galaxy fold*/
+@media only screen and (width:280px) and (height:653px){
+  h1 {
+    text-align: center;
+    font-size: 200%;
+    justify-content: center;
+  }
+  .download{
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    left: 13px;
+  }
+  .download a button{
+   margin-bottom: 25px;
+  }
+  .nav-bar {
+    margin-left: 10px;
+}
+}
